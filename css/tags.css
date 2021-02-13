@@ -1,36 +1,22 @@
-.tags-wrap {
-  max-width: 850px;
-  margin: 0 auto;
-  padding-top: 40px;
-  color: dark-gray;
+.tag_page_title {
+  font: bold 3.5em sans-serif;
+  margin: 1em 0 0.5em 0;
 }
-.tags-wrap .tags {
-  padding-bottom: 5px;
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
 }
-.tags-wrap .tags a {
-  padding-right: 10px;
-  font-size: 16px;
-  color: #aaa;
-  line-height: 25px;
+.tags .singletag {
+  padding: 0.2em 0.75em;
+  margin: 0.8em 1.5em;
+  border: 0.15em #848484 solid;
+  border-radius: 1em;
 }
-.tags-wrap .tags a:hover {
-  color: dark-gray;
+.tags .tag_link {
+  font: bold 1.2em sans-serif;
+  color: #d14e4e;
 }
-.tags-wrap .one-tag-list .tag-text {
-  margin: 10px 0px;
-  font-size: 22px;
-  color: dark-gray;
-}
-.tags-wrap .one-tag-list .post-preview {
-  line-height: 35px;
-}
-.tags-wrap .one-tag-list .post-preview .tagItem-date {
-  display: block;
-  float: left;
-  color: #aaa;
-}
-.tags-wrap .one-tag-list .post-preview a {
-  display: inline-block;
-  text-indent: 2em;
-  color: dark-gray;
+.tags .tag_link:hover {
+  color: #ff4848;
 }
